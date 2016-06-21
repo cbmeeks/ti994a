@@ -114,7 +114,7 @@ GoogleDrive.AUTHORIZED = false;
 
 GoogleDrive.authorize = function(refresh, success, failure) {
 
-    var CLIENT_ID = "101694421528-72cnh0nor5rvoj245fispof8hdaq47i4.apps.googleusercontent.com";
+    var CLIENT_ID = "CHANGE ME";
     var SCOPES = 'https://www.googleapis.com/auth/drive';
 
     if (refresh || !GoogleDrive.AUTHORIZED) {
